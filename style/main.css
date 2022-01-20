@@ -1,0 +1,94 @@
+:root {
+    --laranja-rosa: #fd644f;
+    --laranja: #f28e26;
+}
+
+/* importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: var(--laranja-rosa);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 30px;
+    background-image: linear-gradient(90deg, var(--laranja-rosa), var(--laranja));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header #pedido {
+    border: 1px solid #fd644f;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+header #pedido a {
+    margin-right: 0;
+}
+
+header .logo {
+    color: var(--laranja-rosa);
+    margin-left: 20px;
+    background-image: linear-gradient(90deg, var(--laranja-rosa), var(--laranja));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+main {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: #000;
+}
+
+main .text {
+    font-size: 40px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.orange {
+    color: var(--laranja-rosa);
+    background-image: linear-gradient(90deg, var(--laranja-rosa), var(--laranja));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    width: 100%;
+    background-color: var(--laranja-rosa);
+}
