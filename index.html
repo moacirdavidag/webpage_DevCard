@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="style/main.css">
     <title>DevCard: o cartão dos programadores</title>
 </head>
 <body>
@@ -21,11 +21,32 @@
             <h2>O cartão dos <span class="orange">programadores</span> sem <span class="orange">anuidade</span> e com <span class="orange">cashback</span>... $$$</h2>
         </div>
         <div class="card_image">
-            <img src="/resources/img/devcard.png" alt="Foto do DevCard">
+            <img src="resources/img/devcard.png" alt="Foto do DevCard">
         </div>
     </main>
     <section class="content">
-        =Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, quia. Nostrum corporis amet impedit dolores maxime culpa. Reprehenderit quae magnam nostrum, vero numquam quibusdam vitae nobis, ab, officia eius temporibus.
+        <div class="image-benefits">
+            <img src="resources/img/card_benefits_image.jpg" id="card_benefits_image" alt="Pessoa fazendo compras">
+        </div>
+        <div class="benefits">
+            <h3>Vantagens do DevCard</h3>
+            <ul>
+                <li>Anuidade zero;</li>
+                <li>Tarifas baixas;</li>
+                <li>Cashback em compras online;</li>
+                <li>Desconto em sites de cursos da área de TI usando o cartão.</li>
+            </ul>
+        </div>
     </section>
+    <section class="content" id="formCard">
+        <h3>Peça já o seu cartão</h3>
+        <form name="pedirCartao" id="pedirCartao" action="#">
+            <input type="text" id="nome" placeholder="Digite o seu nome" class="input_text" required>
+            <input type="email" id="nome" placeholder="Digite o seu e-mail" class="input_text" required>
+            <input type="submit" id="pedir" value="Pedir">
+        </form>
+        <p id="info"><strong>Atenção:</strong> Este site é apenas um projeto para fortfólio pessoal de <a href="https://www.linkedin.com/in/moacir-david-7735b7158/">Moacir David.</a> O <strong>DevCard não é um cartão verdadeiro, é apenas uma ideia fictícia.</strong> Ademais, <strong>nunca coloque os seus dados pessoais em algum formulário aleatório pela internet, a menos que seja de alguma instituição confiável, para evitar roubos de dados</strong>, como o <i>phishing</i>.</p>
+    </section>
+    <footer>Projeto desenvolvido por <a href="https://www.linkedin.com/in/moacir-david-7735b7158/" target="_blank">Moacir David</a>.</footer>
 </body>
 </html>
