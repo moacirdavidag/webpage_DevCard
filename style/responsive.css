@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 450px) {
+    main .text {
+        margin-top: 50px;
+    }
     #formCard .input_text {
         width: 350px;
     }
